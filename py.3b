@@ -1,0 +1,32 @@
+#concatenation
+first_name = " sathya "
+last_name = " priya "
+full_name = first_name + last_name
+print(full_name)
+
+#repetation
+name = " hardria "
+print(name * 10)
+
+#string methods
+print(name.upper())
+print(name.lower())
+print(name.strip())
+print(name.replace("name", "hardria"))
+
+name = '''sathya said "hey"
+        priya said "hello"'''
+print(name)
+print(len(name))
+name = "sathya"
+
+#slicing 
+print(name[2]) #postion 
+print(name[2:5])
+print(name[3:])
+print(name[-2]) #reverse
+print(name[::2])
+
+
+s = "sathya \n is good girl " # new line
+print(s)
