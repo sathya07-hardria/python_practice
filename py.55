@@ -1,0 +1,24 @@
+color = ["blue", "orange", "yellow", "red", "pink"]
+print(color[3])
+
+color.append("purple")#add at the end
+print("After append:", color)
+
+color.insert(2, "black")
+print(color)
+
+color.remove("red")
+print(color)
+print(len(color)) #length
+print("blue" in color) #check
+
+color.sort()
+print(color)
+
+color.reverse()
+print(color)
+
+color[0] = "white"
+print(color)
+
+
