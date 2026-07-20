@@ -1,0 +1,20 @@
+karnataka_famous_dishes = {
+    "hassan" : "ragi mudde",
+    "ckm" : "egg rice",
+    "bagalakotte" : "rotti",
+    "mangalore" : "fish curry",
+    "bengaluru" : "palav"
+}
+print(karnataka_famous_dishes)
+
+karnataka_famous_dishes["chithradurga"] = "chithranna" #add
+print(karnataka_famous_dishes)
+
+karnataka_famous_dishes["bengaluru"] = "bisi bele bath"
+print(karnataka_famous_dishes)
+
+del karnataka_famous_dishes["hassan"]
+print(karnataka_famous_dishes)
+
+print(karnataka_famous_dishes.keys())
+print(karnataka_famous_dishes.values())
