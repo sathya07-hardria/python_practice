@@ -1,0 +1,27 @@
+# dictionary dict
+name ={
+    "girl": "sathya",
+    "girl1": "priya",
+    "boy": "pranav"
+} 
+
+print(name.get("gay", "not found")) #safe asscessing
+print(name)
+
+name["boy1"] = "akash"  #add
+print(name)
+
+name["girl"] = "hardria" #updating
+print(name) 
+
+# we can assign a pop value into another variable
+x = name.pop("boy")  #delete
+print(x)
+
+del name["girl1"]
+print(name)
+
+print(name.keys())
+print(name.values())
+print(name.items())
+
