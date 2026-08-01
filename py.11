@@ -1,0 +1,25 @@
+'''
+# comprehension
+students = ["chandan","dharshan","narendra"]
+marks = [25, 90, 78]
+student_marks = {}
+for i in range(0, len(students)):
+         student_marks[students[i]] = marks[i]
+print(student_marks)
+foods = ["mudde", "palav", "anna_saaru", "rotti"]
+uppercase_foods = [food.upper() for food in foods]
+print(uppercase_foods)
+'''
+d = {
+    "book":50,
+    "pencil":20,
+    "sharpner":10,
+    "ereser":5,
+    "box":15
+}
+total = 0
+for price in d.values():
+      total += price
+    
+print(d)
+print(total)

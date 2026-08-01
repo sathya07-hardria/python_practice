@@ -1,0 +1,10 @@
+
+def greet_user(name):
+   print(f"hello, {name} welcome to srinivas")
+greet_user("hardria")#positonal arguments
+
+def add_num(a, b):
+    return a + b
+print(add_num(2, 3))
+print(add_num(0, 3))
+print(add_num(45, 90))
