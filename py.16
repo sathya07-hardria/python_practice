@@ -1,0 +1,13 @@
+class movie:
+    def __init__(self, title, rating):
+        self.title = title
+        self.rating = rating
+
+    def show_info(self):
+        print("movie title:", self.title)
+        print("movie rating:", self.rating)
+
+
+movie1 = movie("Geetha Govindham", 5)
+
+movie1.show_info()
